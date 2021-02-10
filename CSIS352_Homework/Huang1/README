@@ -1,0 +1,31 @@
+# File:     README
+# Author:   Pengfei Huang
+
+what does this program do?
+
+This program created a fraction class which base on the main.cpp
+It runs perfectly (100%)
+
+Input/Output:
+
+input: keyboard
+output: screen
+
+Files:
+	 file             function           description
+        --------------   -----------------  ----------------------
+        main.cpp         main               main function
+
+        fraction.h      fraction            fraction class specification
+
+        fraction.cpp    circle methods      fraction class implementation
+        
+        makefile        makefile            making file
+
+Testing:
+
+I ran the given main.cpp to test my fraction file
+
+Bugs:
+
+A zero oof the denominator can be set for a fraction.

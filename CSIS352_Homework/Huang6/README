@@ -1,0 +1,60 @@
+# File:     README
+# Author:   Pengfei Huang
+
+what does this program do?
+
+This program read the data from the file and output it two other files
+It runs perfectly (100%) 
+
+
+Input/Output:
+
+input: file
+output: file
+
+Files:
+	 file             	function           	description
+        --------------   	-----------------  	----------------------
+        main.cpp         	main               	main function
+
+        date.h      	 	DateNameSpace      	Date class specification , DateException class specification
+
+        date.cpp         	date methods       	date class implementation
+	
+	person.h      	 	Person methods     	Person class specification 
+
+        person.cpp       	Person methods     	Person class implementation
+	
+	employee.h      	Employee methods   	Employee class specification
+
+        employee.cpp     	Employee methods   	Employee class implementation
+		
+	hourlyemployee.h 	HourlyEmployee method   HourlyEmployee class specification
+
+        hourlyemployee.cpp      HourlyEmployee methods  HourlyEmployee class implementation
+	
+	salaryemployee.h 	SalaryEmployee method   SalaryEmployee class specification
+
+        salaryemployee.cpp      SalaryEmployee methods  SalaryEmployee class implementation
+
+	employees.h      	Employees methods   	Employees class specification
+
+        employees.cpp     	Employees methods   	Employees class implementation
+
+	read.cpp		read method		read from the file and throw exception if the file name does not exist
+
+	write.cpp		write method		write into payroll and employee files and throw exception if writting file 
+        
+        makefile        	makefile           	making file
+	
+	prog6data					testing data
+	
+	README
+
+Testing:
+
+I ran my main.cpp with the prog6data file. it output the right file
+
+Bugs:
+
+

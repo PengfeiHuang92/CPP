@@ -1,0 +1,38 @@
+# File:     README
+# Author:   Pengfei Huang
+
+what does this program do?
+
+This program created a Array class by using template class
+It runs perfectly (100%) 
+
+Input/Output:
+
+input: keyboard
+output: screen
+
+Files:
+	 file             function           description
+        --------------   -----------------  ----------------------
+        main.cpp         main               main function
+
+        array.h      	 ArrayNameSpace     Array class specification 
+        
+        makefile         makefile           making file
+
+	README           README             README file
+
+	prog3main.cpp    main		    testting file
+
+Testing:
+
+I ran the given prog3main.cpp to test my Array class and I have done some testting by using my testing file. It work both for prog3main and my testing file.
+
+Bugs:
+I am not sure if I need to turn in the prog3main.cpp with my assignment after readding "Turn in your program with the prog3main.cpp in the class directory as your main.cpp and comment out anything that doesn't work. Repeat... your main program will be in main.cpp.".
+Based on what I thought, I need to put the prog3main.cpp in my directory and to create a main file which contain the same code as prog3main.cpp.
+Please let me know if what I have done were wrong.
+
+
+
+

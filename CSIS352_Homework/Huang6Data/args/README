@@ -1,0 +1,8 @@
+This directory contains 2 examples, each in their own directory.
+
+example1 - Shows an example of argc and argv syntax and how it works.
+           Try executing it with mulitple command line arguments.
+
+example2 - Has 4 different examples showing use of command line arguments 
+           for file names.
+

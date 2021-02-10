@@ -1,0 +1,57 @@
+# File:     README
+# Author:   Pengfei Huang
+
+what does this program do?
+
+This program created a Map class by using template class
+It runs perfectly (100%) 
+
+Input/Output:
+
+input: keyboard
+output: screen
+
+Files:
+	 file             function          				 description
+        --------------   -----------------  				----------------------
+        main.cpp         main               				main function
+
+        city.h      	 City.class         				City class specification 
+	
+	city.cpp	 City Constructor 
+			 Relational operators
+			 getName()
+			 Override << operator	
+      
+        Graph.h      	 						Graph class specification and all the functions
+			 Graph()        
+		      	 Graph(mapFormat)
+			 Graph(mapFormat,mapFormat)
+			 isEmpty()
+			 isFUll();
+			 insertVertex(Template class)
+			 insertEdge(Template class,Template class,weight)
+			 vertexCount()
+                         edgeCount()
+			 dump()
+			 edgeWeight(Template class,newWeight)
+	 		 isAdjacentTo(Template class,Template class)
+			 deleteVErtex(Template class)
+			 destory()
+
+        makefile         makefile           making file
+
+	README           README             README file
+
+	main.cpp         main		    testting file
+
+Testing:
+
+I ran the given main.cpp to test my Graph class and I have done some testting by using my testing file. It work both for main and my testing file.
+
+Bugs:
+
+I set the weight to 0 if the Graph is unWeighted
+
+
+

@@ -1,0 +1,32 @@
+# File:     README
+# Author:   Pengfei Huang
+
+what does this program do?
+
+This program created a Date class which base on the main.cpp
+It runs perfectly (100%) 
+I do not do the BONUS Level, I commont it out in the main file
+
+Input/Output:
+
+input: keyboard
+output: screen
+
+Files:
+	 file             function           description
+        --------------   -----------------  ----------------------
+        main.cpp         main               main function
+
+        date.h      	 DateNameSpace      Date class specification , DateException class specification
+
+        date.cpp         date methods       date class implementation
+        
+        makefile         makefile           making file
+
+Testing:
+
+I ran the given main.cpp to test my fraction file
+
+Bugs:
+
+I am not able to do the Bouns Level

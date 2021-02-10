@@ -1,0 +1,140 @@
+File:    README
+Author:  Pengfei Huang
+Program: Assignment #5
+Date:  2/26/2018
+
+BUILDING THE PROGRAM
+   This program was written in C++ and distributed to be built on a 
+   Linux system.  To build the program, type 'make' to create the 
+   executable called 'prog5'. Type 'make clean' at the command prompt
+   after bulding the program. It will clean all the .o files.
+
+RUNNING THE PROGRAM
+   Type 'prog5' at the command prompt after building the program.
+   
+PROGRAM DESCRIPTION
+
+    This program will ask the user to enter the Maximum
+score from the keyboard, then it will ask user to enter
+the test scores from the keyboard and read until the
+sentinel value -1 is input.
+    After that, it will print out all the test score with
+the percentage and the grade.
+    at the end of the program, is will show the Summary
+information, such as Maximum score, the number of students
+processed,high socre,low score, range of scores(high score
+minus low score),average score, median score and standard
+deviation of scores.)
+
+PROGRAM INPUT
+    All the input comes from the keyboard. At first, this program will ask
+user to enter the Maximum score. Then, this program will aks user to enter the
+test scores until the sentinel value -1 is entered. Input can be entered all on one line,
+or separate lines, or a combination of the two.
+   For example:
+      56
+      87
+      94
+      -1
+   or  56 87 94 -1 
+
+PROGRAM OUTPUT
+     All output is written to the screen. The output will be showed such as:
+         
+Enter the maximum score: 100
+Enter the test scores end it with -1: 11 22 55 98 41 -1
+     Score     Percentage     Grade
+        98          98.00         A
+        55          55.00         F
+        41          41.00         F
+        22          22.00         F
+        11          11.00         F
+Summary...........
+Maximum Score:             100
+Number of students:          5
+High score:                 98
+Low Score:                  11
+Range of scores:            87
+Average Score:           45.40
+Median Score:            41.00
+Standard Deviation:      30.36
+
+PROGRAM DESIGN
+    This program stores all the test scores in an array. Then, by calling
+different function to get the result as output it.
+
+FILE INDEX
+file             function           description
+--------------   -----------------  ----------------------
+main.cpp         main               main function
+constants.h      declarations       declares contants
+getAvg.cpp       getAvg             get the average form the array
+getGrade.cpp     getGrade           return the test grade
+getMed.cpp       getMed             return the medimum test score
+getScore.cpp     getScore           return the percentage of the test score
+getStandardDeviation.cpp  getStandardDeviation  return the Standard Deviation
+                                                of the score array
+outputScores.cpp outputScores       outpur the scores with their percentage and grade
+outputSummary.cpp outputSummary     output the summary of the test score
+sort.cpp         sorted             reorder the score array, form highest to lowest
+
+
+
+PROGRAM TESTING
+
+1)testing the Grade is match.
+Enter the maximum score: 100
+Enter the test scores end it with -1: 50 60 70 80 90 -1
+     Score     Percentage     Grade
+        90          90.00         A
+        80          80.00         B
+        70          70.00         C
+        60          60.00         D
+        50          50.00         F
+
+2)testing the median score
+when even numbers was entered.
+Enter the maximum score: 100
+Enter the test scores end it with -1: 50 60 66 70 -1
+
+Median Score:            63.00 (match)
+
+when odd numbers was entered.
+Enter the maximum score: 100
+Enter the test scores end it with -1: 50 60 70 -1
+
+Median Score:            60.00 (match)
+
+
+
+Bugs!
+
+ 1.  The all input must be numbers.
+ 2.  The test score must have at least one score.
+ 3.  All the numbers must be greater than 0.
+ 4.  All the test score must not be greater than the maximum.
+ 5.  The number of test scores must smaller or equal to 30.
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

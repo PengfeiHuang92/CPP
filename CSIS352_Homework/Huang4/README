@@ -1,0 +1,36 @@
+# File:     README
+# Author:   Pengfei Huang
+
+what does this program do?
+
+This program created a sortedList class by using template class
+It runs perfectly (100%) 
+
+Input/Output:
+
+input: keyboard
+output: screen
+
+Files:
+	 file             function           description
+        --------------   -----------------  ----------------------
+        main.cpp         main               main function
+
+        sortedList.h     sortedListSpace    sortedList class specification 
+        
+        makefile         makefile           making file
+
+	README           README             README file
+
+	prog4main.cpp    main		    testting file
+
+Testing:
+
+I ran the given prog4main.cpp to test my sortedList class and I have done some testting by using my testing file. It work both for prog4main and my testing file.
+
+Bugs:
+
+none
+
+
+
